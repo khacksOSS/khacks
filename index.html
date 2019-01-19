@@ -331,6 +331,18 @@
 							<p>A global hackathon and celebration of learning, building, and sharing!.The hackathon was coducted on 4th December 2018 and attendees were made to code a project for 12 hours.</p>
 						</div>
 					</section>
+						<section class="feature left">
+						<a href="#" class="image"><img src="IMG_20181218_184641.jpg" alt="" class="mySlides4"/>
+						<img src="IMG_20181218_184716.jpg" alt="" class="mySlides4"/>
+						<img src="IMG_20181218_205150.jpg" alt="" class="mySlides4"/>
+						<img src="IMG_20181219_074319.jpg" alt="" class="mySlides4"/>
+						
+					</a>
+						<div class="content">
+							<h3>Python  GUI</h3>
+							<p>Conducted first self-hosted workshop on python using GUI using Tkinter and Django Web framework on 17th Dec 2018.</p>
+						</div>
+					</section>
 				</div>
 
 				<!--
@@ -478,7 +490,7 @@
 
 				<footer class="major container medium" id="schedule">
 					<h3>Upcoming Events</h3>
-					<p style="font-size: 16px;">Join us on December 18th, 2018 for Python GUI Workshop.</p>
+					<p style="font-size: 16px;">Join us on February  14th, 2019 for Cyber Security Workshop.</p>
 					<ul class="actions special">
 						<li><a href="#" class="button">Register here</a></li>
 					</ul>
@@ -504,38 +516,11 @@
                                     <ul>
                                         <li>
                                             <div class="single_team_img">
-                                                <img src="images/py.png" alt="" />
-                                            </div>
-                                            <div class="single_team_text">
-                                                <h4>Python GUI Workshop</h4>
-                                                <p>18th December 2018</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single_team_img">
-                                                <img src="images/ga.jpg" alt="" />
-                                            </div>
-                                            <div class="single_team_text">
-                                                <h4>Google Assistant Workshop</h4>
-                                                <p>10th January 2019</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single_team_img">
-                                                <img src="images/aws.jpg" alt="" />
-                                            </div>
-                                            <div class="single_team_text">
-                                                <h4>AWS Workshop</h4>
-                                                <p>7th February 2019</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single_team_img">
                                                 <img src="images/cs.jpeg"alt="" />
                                             </div>
                                             <div class="single_team_text">
                                                 <h4>Cyber Security</h4>
-                                                <p>15th February 2019</p>
+                                                <p>14th February 2019</p>
                                             </div>
                                         </li>
                                         <li>
@@ -901,11 +886,14 @@ function carousel() {
     var y = document.getElementsByClassName("mySlides1");
     var z = document.getElementsByClassName("mySlides2");
     var a = document.getElementsByClassName("mySlides3");
+    var b = document.getElementsByClassName("mySlides4");
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
        y[i].style.display = "none"; 
        z[i].style.display = "none"; 
-       a[i].style.display = "none"; 
+       a[i].style.display = "none";
+       b[i].style.display = "none"; 
+    	
     }
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
@@ -914,7 +902,8 @@ function carousel() {
     y[myIndex-1].style.display = "block";
     z[myIndex-1].style.display = "block";
     a[myIndex-1].style.display = "block";
-    setTimeout(carousel, 2500); // Change image every 2 seconds
+  	b[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2500); // Change image every 2 seconds
 }
 </script>
 		<!-- Scripts -->
