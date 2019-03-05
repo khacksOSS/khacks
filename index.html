@@ -338,11 +338,39 @@
 						<img src="IMG_20181219_074319.jpg" alt="" class="mySlides4"/>
 						
 					</a>
-						<div class="content">
-							<h3>Python  GUI</h3>
-							<p>Conducted first self-hosted workshop on python using GUI using Tkinter and Django Web framework on 17th Dec 2018.</p>
-						</div>
+					<div class="content">
+						<h3>Python  GUI</h3>
+						<p>Conducted first self-hosted workshop on python using GUI using Tkinter and Django Web framework on 17th Dec 2018.</p>
+					</div>
 					</section>
+					<section class="feature right">
+						<a href="#" class="image"><img src="img_0111.jpg" alt="" class="mySlides5"/>
+						<img src="exp6.jpg" alt="" class="mySlides5"/>
+						<img src="exp4.jpg" alt="" class="mySlides5"/>
+						<img src="exp2.jpg" alt="" class="mySlides5"/>
+					</a>
+						<div class="content">
+							<h3>Cyber Security Workshop</h3>
+							<p>KarunyaHacks organized a workshop on "Cyber Security" on 14th Feb lead by Mr. Sathish Kumar in Karunya Institute of Technology and Sciences.
+							</p>
+						</div>
+					
+				</section>
+					<section class="feature left">
+						<a href="#" class="image"><img src="IMG_2709.jpg" alt="" class="mySlides6"/>
+						<img src="IMG_2653.jpg" alt="" class="mySlides6"/>
+						<img src="IMG_2619.jpg" alt="" class="mySlides6"/>
+						<img src="img_2584.jpg" alt="" class="mySlides6"/>
+						
+					</a>
+						<div class="content">
+						<h3>Python For Data Science</h3>
+						<p>Girls Wing of KarunyaHacks conducted a workshop on "Python for Data science" on 20th Feb in order to empower the girl community.The workshop was planned, organized and attended by girl students.</p>
+					</div>
+				</section>
+						
+				
+					
 				</div>
 
 				<!--
@@ -887,12 +915,17 @@ function carousel() {
     var z = document.getElementsByClassName("mySlides2");
     var a = document.getElementsByClassName("mySlides3");
     var b = document.getElementsByClassName("mySlides4");
+		var c = document.getElementsByClassName("mySlides5");
+		var d = document.getElementsByClassName("mySlides6");
+		
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
        y[i].style.display = "none"; 
        z[i].style.display = "none"; 
        a[i].style.display = "none";
        b[i].style.display = "none"; 
+			 d[i].style.display = "none"; 
+			 c[i].style.display = "none"; 
     	
     }
     myIndex++;
@@ -903,7 +936,10 @@ function carousel() {
     z[myIndex-1].style.display = "block";
     a[myIndex-1].style.display = "block";
   	b[myIndex-1].style.display = "block";
-      setTimeout(carousel, 2500); // Change image every 2 seconds
+    c[myIndex-1].style.display = "block";
+    d[myIndex-1].style.display = "block";
+    
+		  setTimeout(carousel, 2500); // Change image every 2 seconds
 }
 </script>
 		<!-- Scripts -->
