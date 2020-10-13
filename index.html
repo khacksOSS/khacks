@@ -1090,6 +1090,18 @@ function carousel() {
 
     </script>
 
-
+    <!-- Smooth Scrool Effect -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+	    var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true,
+            easing: "easeInOutQuad",
+            // History
+            // updateURL: true, // Update the URL on scroll
+            popstate: true,
+        });
+    </script>
+    
 	</body>
 </html>
